@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+    <link rel="stylesheet" href="Tarefa.css"/>
+</head>
+<body>
+    <h1><b>Validação de Campos</b></h1>
+    <h2>Insira um Número no campo B que seja <b>maior</b> que o campo A</h2>
+    <form id="form">
+        <label for="campo-a">Campo A:</label>
+        <input id="campo-a" type="number" placeholder="Insira um número" required/>
+        <label for="campo-b">Campo B:</label>
+        <input id="campo-b" type="number" placeholder="Insira um número" required/>
+        <button>Validar campos</button>
+    </form>
+    <div id="mensagem" class="message"></div>
+    <script src="Tarefa.js"></script>
+</body>
+</html>
